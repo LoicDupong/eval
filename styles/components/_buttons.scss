@@ -1,0 +1,57 @@
+.btn{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    border-radius: 5px;
+    padding: 10px 15px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+    &--hero{    
+        font-family: "Roboto", sans-serif; 
+        color: white;
+        font-weight: 700;
+        padding: 1em 2.2em;
+        transition: .3s all ease;
+        
+        &-blue{
+            background-color: #0744af;
+        }
+        &-black{
+            background-color: #000;
+        }
+
+        &:hover{
+            opacity: .6;
+        }
+    }
+
+    &--attorneys{
+        color: #0F3447;
+        background-color: white;
+        margin: auto;
+
+        & i{
+            margin-right: .8rem;
+        }
+    }
+
+    &--blog{
+        font-size: 14px;
+        font-weight: 400;
+        background-color: #0744af;
+        color: white;
+        padding: 8px 20px;
+        border-radius: unset;
+        margin: auto;
+
+        & i{
+            font-size: 8px;
+            margin-left: .5rem;
+        }
+    }
+}

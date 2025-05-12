@@ -1,0 +1,32 @@
+.header--home{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.header__video{
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    & video{
+        height: 100%;
+        width: 100%;
+
+    }
+}
+
+.navbar--home{
+    position: relative;
+    z-index: 4;
+}
+
+.hero{
+    position: relative;
+    z-index: 4;
+}
+
+
+
