@@ -1,0 +1,25 @@
+.accessibility{
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #006595;
+    z-index: 5;
+
+    & i {
+        background-color: white;
+    }
+}
+
+.call-fixed{
+    position: fixed;
+    bottom: 0;
+    background-color: #0c5cb7;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+    border-top: 1px solid white;
+}

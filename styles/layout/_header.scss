@@ -2,30 +2,69 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-}
-
-.header__video{
-    position: absolute;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    z-index: 3;
-
-    & video{
-        height: 100%;
-        width: 100%;
-
-    }
+    background-color: #222;
 }
 
 .navbar--home{
-    position: relative;
+    position: absolute;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
 }
+
+.logo-container img{
+    height: 60px;
+}
+
+.nav{
+    display: none;
+}
+
+.burger-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18px;
+
+    & div{
+        height: 2px;
+        width: 20px;
+        background-color: white;
+    }
+}
+
 
 .hero{
     position: relative;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+
+    &__video{
+        position: absolute;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        
+    
+        & video{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &__body{
+
+    }
+    &__btn{
+        display: none;
+    }
 }
 
 
