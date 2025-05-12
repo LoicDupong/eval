@@ -3,4 +3,117 @@
         padding: 60px 0;
         background-color: #0744af;
     }
+
+    &__badges{
+        background-color: #0744af;
+        display: flex;
+
+        .badge:not(.badge:nth-of-type(1)){
+            display: none;
+        }
+    }
+
+    &__blog{
+        padding: 100px 0;
+        background-image: linear-gradient(to bottom, rgba(7, 68, 175, 0.95), rgba(7, 68, 175, 0.75)), url(../img/shutterstock_2314958033.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+
+        .blog{
+            margin-bottom: 2rem;
+        }
+    }
 }
+
+.intro__quote{
+    padding: 25px;
+}
+
+.section__intro{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.55)), url(../img/shutterstock_2413843309.jpg);
+}
+
+.attorney__item {
+    margin-bottom: 2.5rem;
+    position: relative;
+
+    img{
+        max-width: 240px;
+        max-height: 240px;
+        border-radius: 50%;
+        margin: auto;
+        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+
+    &::before{
+        content: "John Deis";
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        z-index: 6;
+        padding: 10px 20px;
+        background: linear-gradient(90deg, #0F3447, #0744af);
+        color: white;
+        border-radius: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+
+    .card{
+        padding: 20px;
+        background-color: #f3f5f9;
+        border-radius: 3px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: .2s all ease-in-out;
+
+        &__separator{
+            height: 3px;
+            background-color: #DDD;
+            margin-bottom: 1rem;
+            width: 20%;
+            transition: .3s all ease-in-out;
+        }
+
+        &--cta{
+            background-color: #222;
+
+            &:hover{
+                transform: translateY(-3%); 
+
+                .card__separator{
+                    width: 100%;
+                    background-color: #0744af;
+                }
+            }
+        }
+
+        &:not(.card--cta):hover{
+            transform: translateY(-3%);
+            
+            .text {
+                color: #0744af;
+            }
+
+            .card__separator{
+                width: 100%;
+                background-color: #0744af;
+            }
+        }
+
+        &__link:not(.card--cta .card__link):hover{
+            color: black;
+        }
+    }
+}
+
+

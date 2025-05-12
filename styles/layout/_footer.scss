@@ -1,4 +1,47 @@
 .footer{
     background-color: #222222;
     padding: 3rem 0 4rem 0;
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    &__container{
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__socials{
+        font-size: 28px;
+        margin: 4rem 0;
+
+        a{
+            margin-left: .8rem;
+
+            &:hover{
+                color: #0744af;
+            }
+        }
+    }
+
+    &__disclaimer{
+        padding: 0 10px;
+    }
+
+    &__copyrights{
+        margin-top: 2rem;
+    }
 }
+
+.nav__map i {
+    margin-right: .3rem;
+}
+
+.logo--footer{
+    height: 90px;
+    margin: auto;
+}
+
+
+
+
