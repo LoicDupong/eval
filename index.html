@@ -11,7 +11,7 @@
 <body>
     <!----✅✅ Un joli HEADER ✅✅ ---->
     <header class="header header--home">
-        <navbar class="navbar--home">
+        <navbar class="navbar navbar--home">
             <div class="logo-container">
                 <img src="img/hicks-thomas-logo-new-white.png" alt="Hick Thomas logo">
             </div>
@@ -23,7 +23,7 @@
                 <a href="">News</a>
                 <a href="">Video Center</a>
                 <a href="">Contact</a>
-                <a href="">
+                <a href="" class="search">
                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                 </a>
             </nav>
@@ -57,62 +57,76 @@
     <main class="main">
         <!----🧡🧡 Une jolie section INTRO 🧡🧡 ---->
         <section class="section section__intro" id="intro">
-            <div class="section__container">
-                <span class="suptitle">
-                    From the Board Room to the Courtroom <i class="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2 class="title title--section">
-                    Texas Trial Lawyers
-                </h2>
-                <div class="text text--section">
-                    <p>Our litigation strategy is always crafted with your business objectives in mind. We invest the time to learn your business and understand your goals before developing our litigation game plan. This knowledge enables us to put you in the best position for success in the world of dispute resolution.</p>
-                    <p>We know that the realm of <a href="">business litigation</a> and disputes can be uncomfortable. That is why our first question is always “What can we do to help?” Our second question is always “What can we do better?” Knowing the answers to these questions helps solidify our relationships with our client partners.</p>
+            <div class="section__wrapper intro">
+                <div class="section__container">
+                    <span class="suptitle">
+                        From the Board Room to the Courtroom <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                    <h2 class="title title--section">
+                        Texas Trial Lawyers
+                    </h2>
+                    <div class="text text--section">
+                        <p>Our litigation strategy is always crafted with your business objectives in mind. We invest the time to learn your business and understand your goals before developing our litigation game plan. This knowledge enables us to put you in the best position for success in the world of dispute resolution.</p>
+                        <p>We know that the realm of <a href="">business litigation</a> and disputes can be uncomfortable. That is why our first question is always “What can we do to help?” Our second question is always “What can we do better?” Knowing the answers to these questions helps solidify our relationships with our client partners.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="intro__quote">   
-                <blockquote>
-                    <p>
-                        <i class="fa-solid fa-quote-left"></i>
-                        Hicks Thomas LLP is an accomplished team of commercial litigators with a wealth of trial experience.
-                        <br><i class="fa-solid fa-quote-right"></i>
-                    </p>
-                    <cite>Chambers USA</cite>
-                </blockquote>
+                <div class="intro__quote">
+                    <blockquote>
+                        <p>
+                            <i class="fa-solid fa-quote-left"></i>
+                            Hicks Thomas LLP is an accomplished team of commercial litigators with a wealth of trial experience.
+                            <br><i class="fa-solid fa-quote-right"></i>
+                        </p>
+                        <cite>Chambers USA</cite>
+                    </blockquote>
                 
+                </div>
             </div>
         </section>
         <!----🧡🧡 Une jolie section ATTORNEYS 🧡🧡 ---->
         <section class="section section__attorneys">
-            <div class="attorneys__carrousel">
-                <div class="attorney__item">
-                    <img src="img/john-Deis-380x380-1.jpg" alt="John Deis">
+            <div class="section__wrapper attorneys">
+                <div class="attorneys__carrousel">
+                    <div class="attorneys__item">
+                        <img src="img/john-Deis-380x380-1.jpg" alt="John Deis">
+                    </div>
                 </div>
-            </div>
-            <div class="section__container">
-                <span class="suptitle suptitle--attorneys">A Unique Perspective <i class="fa-solid fa-arrow-right"></i></span>
-                <h2 class="title title--section title--attorneys">Houston's Top Litigation Attorneys
-                </h2>
-                <div class="text text--section text--attorneys">
-                    <p>How do our clients describe us? They call us sophisticated legal strategists and creative problem solvers, bringing unique perspectives to every case. Our Houston attorneys' diverse experience and proven results offer peace of mind, even in high-stakes situations. We have the resources to handle complex cases while providing personalized attention to your company's needs.</p>
+                <div class="section__container attorneys__container">
+                    <span class="suptitle suptitle--attorneys">A Unique Perspective <i class="fa-solid fa-arrow-right"></i></span>
+                    <h2 class="title title--section title--attorneys">Houston's Top Litigation Attorneys
+                    </h2>
+                    <div class="text text--section text--attorneys">
+                        <p>How do our clients describe us? They call us sophisticated legal strategists and creative problem solvers, bringing unique perspectives to every case. Our Houston attorneys' diverse experience and proven results offer peace of mind, even in high-stakes situations. We have the resources to handle complex cases while providing personalized attention to your company's needs.</p>
+                    </div>
+                    <a href="" class="btn btn--attorneys">
+                        <i class="fa-solid fa-circle-play"></i> Meet our attorneys
+                    </a>
                 </div>
-                <a href="" class="btn btn--attorneys">
-                    <i class="fa-solid fa-circle-play"></i> Meet our attorneys
-                </a>
             </div>
         </section>
         <!----🧡🧡 Une jolie section WORK 🧡🧡 ---->
         <section class="section section__work">
-            <div class="section__container">
-                <span class="suptitle">Our work <i class="fa-solid fa-arrow-right"></i></span>
-                <h2 class="title title--section">A Legacy of Winning
-
-                </h2>
-                <div class="text text--section">
-                    <p>Hicks Thomas LLP is a litigation boutique with extensive expertise across a wide range of industries. We represent both plaintiffs and defendants in business and tort litigation. Our experience includes energy, environmental and toxic torts, antitrust and anti-competitive practices, employment and labor disputes, as well as product liability cases. Since our founding in 1997, we have consistently delivered successful results in complex cases, building a reputation for excellence, efficiency, and outstanding client service.</p>
+            <div class="section__wrapper">
+                <div class="section__container">
+                    <span class="suptitle">Our work <i class="fa-solid fa-arrow-right"></i></span>
+                    <h2 class="title title--section">A Legacy of Winning
+                    </h2>
+                    <div class="text text--section">
+                        <p>Hicks Thomas LLP is a litigation boutique with extensive expertise across a wide range of industries. We represent both plaintiffs and defendants in business and tort litigation. Our experience includes energy, environmental and toxic torts, antitrust and anti-competitive practices, employment and labor disputes, as well as product liability cases. Since our founding in 1997, we have consistently delivered successful results in complex cases, building a reputation for excellence, efficiency, and outstanding client service.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="cards">
-                <a href="" class="card">
+                <div class="cards">
+                    <a href="" class="card">
+                            <h3 class="title--card">Appellate Litigation</h3>
+                            <p class="text text--card">
+                                Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
+                            </p>
+                            <div class="card__separator"></div>
+                            <div class="card__link">
+                                <i class="fa-solid fa-circle-play"></i> Learn More
+                            </div>
+                    </a>
+                    <a href="" class="card">
                         <h3 class="title--card">Appellate Litigation</h3>
                         <p class="text text--card">
                             Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
@@ -121,18 +135,18 @@
                         <div class="card__link">
                             <i class="fa-solid fa-circle-play"></i> Learn More
                         </div>
-                </a>
-                <a href="" class="card">
-                    <h3 class="title--card">Appellate Litigation</h3>
-                    <p class="text text--card">
-                        Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
-                    </p>
-                    <div class="card__separator"></div>
-                    <div class="card__link">
-                        <i class="fa-solid fa-circle-play"></i> Learn More
-                    </div>
-                </a>
-                <a href="" class="card">
+                    </a>
+                    <a href="" class="card">
+                            <h3 class="title--card">Appellate Litigation</h3>
+                            <p class="text text--card">
+                                Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
+                            </p>
+                            <div class="card__separator"></div>
+                            <div class="card__link">
+                                <i class="fa-solid fa-circle-play"></i> Learn More
+                            </div>
+                    </a>
+                    <a href="" class="card">
                         <h3 class="title--card">Appellate Litigation</h3>
                         <p class="text text--card">
                             Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
@@ -141,18 +155,18 @@
                         <div class="card__link">
                             <i class="fa-solid fa-circle-play"></i> Learn More
                         </div>
-                </a>
-                <a href="" class="card">
-                    <h3 class="title--card">Appellate Litigation</h3>
-                    <p class="text text--card">
-                        Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
-                    </p>
-                    <div class="card__separator"></div>
-                    <div class="card__link">
-                        <i class="fa-solid fa-circle-play"></i> Learn More
-                    </div>
-                </a>
-                <a href="" class="card">
+                    </a>
+                    <a href="" class="card">
+                            <h3 class="title--card">Appellate Litigation</h3>
+                            <p class="text text--card">
+                                Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
+                            </p>
+                            <div class="card__separator"></div>
+                            <div class="card__link">
+                                <i class="fa-solid fa-circle-play"></i> Learn More
+                            </div>
+                    </a>
+                    <a href="" class="card">
                         <h3 class="title--card">Appellate Litigation</h3>
                         <p class="text text--card">
                             Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
@@ -161,18 +175,18 @@
                         <div class="card__link">
                             <i class="fa-solid fa-circle-play"></i> Learn More
                         </div>
-                </a>
-                <a href="" class="card">
-                    <h3 class="title--card">Appellate Litigation</h3>
-                    <p class="text text--card">
-                        Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
-                    </p>
-                    <div class="card__separator"></div>
-                    <div class="card__link">
-                        <i class="fa-solid fa-circle-play"></i> Learn More
-                    </div>
-                </a>
-                <a href="" class="card">
+                    </a>
+                    <a href="" class="card">
+                            <h3 class="title--card">Appellate Litigation</h3>
+                            <p class="text text--card">
+                                Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
+                            </p>
+                            <div class="card__separator"></div>
+                            <div class="card__link">
+                                <i class="fa-solid fa-circle-play"></i> Learn More
+                            </div>
+                    </a>
+                    <a href="" class="card">
                         <h3 class="title--card">Appellate Litigation</h3>
                         <p class="text text--card">
                             Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
@@ -181,18 +195,18 @@
                         <div class="card__link">
                             <i class="fa-solid fa-circle-play"></i> Learn More
                         </div>
-                </a>
-                <a href="" class="card">
-                    <h3 class="title--card">Appellate Litigation</h3>
-                    <p class="text text--card">
-                        Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
-                    </p>
-                    <div class="card__separator"></div>
-                    <div class="card__link">
-                        <i class="fa-solid fa-circle-play"></i> Learn More
-                    </div>
-                </a>
-                <a href="" class="card">
+                    </a>
+                    <a href="" class="card">
+                            <h3 class="title--card">Appellate Litigation</h3>
+                            <p class="text text--card">
+                                Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
+                            </p>
+                            <div class="card__separator"></div>
+                            <div class="card__link">
+                                <i class="fa-solid fa-circle-play"></i> Learn More
+                            </div>
+                    </a>
+                    <a href="" class="card">
                         <h3 class="title--card">Appellate Litigation</h3>
                         <p class="text text--card">
                             Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
@@ -201,18 +215,18 @@
                         <div class="card__link">
                             <i class="fa-solid fa-circle-play"></i> Learn More
                         </div>
-                </a>
-                <a href="" class="card">
-                    <h3 class="title--card">Appellate Litigation</h3>
-                    <p class="text text--card">
-                        Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
-                    </p>
-                    <div class="card__separator"></div>
-                    <div class="card__link">
-                        <i class="fa-solid fa-circle-play"></i> Learn More
-                    </div>
-                </a>
-                <a href="" class="card">
+                    </a>
+                    <a href="" class="card">
+                            <h3 class="title--card">Appellate Litigation</h3>
+                            <p class="text text--card">
+                                Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
+                            </p>
+                            <div class="card__separator"></div>
+                            <div class="card__link">
+                                <i class="fa-solid fa-circle-play"></i> Learn More
+                            </div>
+                    </a>
+                    <a href="" class="card card--cta">
                         <h3 class="title--card">Appellate Litigation</h3>
                         <p class="text text--card">
                             Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
@@ -221,139 +235,142 @@
                         <div class="card__link">
                             <i class="fa-solid fa-circle-play"></i> Learn More
                         </div>
-                </a>
-                <a href="" class="card card--cta">
-                    <h3 class="title--card">Appellate Litigation</h3>
-                    <p class="text text--card">
-                        Hicks Thomas LLP specializes in appellate litigation, adeptly handling appeals of trial court rulings. Our skilled lawyers anticipate, prepare for, and successfully argue appeals, ensuring favorable outcomes in higher courts.
-                    </p>
-                    <div class="card__separator"></div>
-                    <div class="card__link">
-                        <i class="fa-solid fa-circle-play"></i> Learn More
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
         </section>
         <!----🧡🧡 Une jolie section BADGES 🧡🧡 ---->
         <section class="section section__badges">
-            <div class="badge"><img src="img/ABOTAwhite.png" alt="ABOTA logo" class="badge"></div>
-            <div class="badge"><img src="img/bestlawfirm-2025_300x273.png" alt="Best law firm 2025 logo" class="badge"></div>
-            <div class="badge"><img src="img/HBF-LifeFellow.png" alt="HBF logo" class="badge"></div>
-            <div class="badge"><img src="img/HR-firmbenchmark-2025-white.png" alt="HR-firmbenchmark-2025-logo" class="badge"></div>
-            <div class="badge"><img src="img/Super-Lawyers-white.png" alt="Super-Lawyers-logo" class="badge"></div>
+            <div class="section__wrapper">
+                <div class="badges">
+                    <div class="badge"><img src="img/ABOTAwhite.png" alt="ABOTA logo" class="badge"></div>
+                    <div class="badge"><img src="img/bestlawfirm-2025_300x273.png" alt="Best law firm 2025 logo" class="badge"></div>
+                    <div class="badge"><img src="img/HBF-LifeFellow.png" alt="HBF logo" class="badge"></div>
+                    <div class="badge"><img src="img/HR-firmbenchmark-2025-white.png" alt="HR-firmbenchmark-2025-logo" class="badge"></div>
+                    <div class="badge"><img src="img/Super-Lawyers-white.png" alt="Super-Lawyers-logo" class="badge"></div>
+                </div>
+            </div>
         </section>
         <!----🧡🧡 Une jolie section BLOG 🧡🧡 ---->
         <section class="section section__blog">
-            <div class="blog">
-                <h3 class="title--blog"><a href="">Former Justice Department Litigator Aleza Remis Joins Hicks Thomas</a></h3>
-                <span class="date">May 5, 2025</span>
-                <p class="text text--blog">
-                    Ms. Remis formerly led DOJ’s Texas Health Care Fraud Strike Force  Hicks Thomas LLP announced today that Aleza Remis, former assistant deputy chief of the Department of Justice Health Care Fraud Unit, has joined the firm’s Houston office as senior counsel.  “We are thrilled to welcome Aleza to the firm,”…
-                </p>
-                <a class="btn btn--blog">
-                    Full text <i class="fa-solid fa-play"></i>
-                </a>
-            </div>
-            <div class="blog">
-                <h3 class="title--blog"><a href="">Former Justice Department Litigator Aleza Remis Joins Hicks Thomas</a></h3>
-                <span class="date">May 5, 2025</span>
-                <p class="text text--blog">
-                    Ms. Remis formerly led DOJ’s Texas Health Care Fraud Strike Force  Hicks Thomas LLP announced today that Aleza Remis, former assistant deputy chief of the Department of Justice Health Care Fraud Unit, has joined the firm’s Houston office as senior counsel.  “We are thrilled to welcome Aleza to the firm,”…
-                </p>
-                <a class="btn btn--blog">
-                    Full text <i class="fa-solid fa-play"></i>
-                </a>
-            </div>
-            <div class="blog">
-                <h3 class="title--blog"><a href="">Former Justice Department Litigator Aleza Remis Joins Hicks Thomas</a></h3>
-                <span class="date">May 5, 2025</span>
-                <p class="text text--blog">
-                    Ms. Remis formerly led DOJ’s Texas Health Care Fraud Strike Force  Hicks Thomas LLP announced today that Aleza Remis, former assistant deputy chief of the Department of Justice Health Care Fraud Unit, has joined the firm’s Houston office as senior counsel.  “We are thrilled to welcome Aleza to the firm,”…
-                </p>
-                <a class="btn btn--blog">
-                    Full text <i class="fa-solid fa-play"></i>
-                </a>
+            <div class="section__wrapper">
+                <div class="blogs">
+                    <div class="blog">
+                        <h3 class="title--blog"><a href="">Former Justice Department Litigator Aleza Remis Joins Hicks Thomas</a></h3>
+                        <span class="date">May 5, 2025</span>
+                        <p class="text text--blog">
+                            Ms. Remis formerly led DOJ’s Texas Health Care Fraud Strike Force  Hicks Thomas LLP announced today that Aleza Remis, former assistant deputy chief of the Department of Justice Health Care Fraud Unit, has joined the firm’s Houston office as senior counsel.  “We are thrilled to welcome Aleza to the firm,”…
+                        </p>
+                        <a class="btn btn--blog">
+                            Full text <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                    <div class="blog">
+                        <h3 class="title--blog"><a href="">Former Justice Department Litigator Aleza Remis Joins Hicks Thomas</a></h3>
+                        <span class="date">May 5, 2025</span>
+                        <p class="text text--blog">
+                            Ms. Remis formerly led DOJ’s Texas Health Care Fraud Strike Force  Hicks Thomas LLP announced today that Aleza Remis, former assistant deputy chief of the Department of Justice Health Care Fraud Unit, has joined the firm’s Houston office as senior counsel.  “We are thrilled to welcome Aleza to the firm,”…
+                        </p>
+                        <a class="btn btn--blog">
+                            Full text <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                    <div class="blog">
+                        <h3 class="title--blog"><a href="">Former Justice Department Litigator Aleza Remis Joins Hicks Thomas</a></h3>
+                        <span class="date">May 5, 2025</span>
+                        <p class="text text--blog">
+                            Ms. Remis formerly led DOJ’s Texas Health Care Fraud Strike Force  Hicks Thomas LLP announced today that Aleza Remis, former assistant deputy chief of the Department of Justice Health Care Fraud Unit, has joined the firm’s Houston office as senior counsel.  “We are thrilled to welcome Aleza to the firm,”…
+                        </p>
+                        <a class="btn btn--blog">
+                            Full text <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <!----💙💙 Un joli FOOTER 💙💙 ---->
     <footer class="footer">
-        <div class="footer__header">
-            <a href=""><img src="img/hicks-thomas-logo-new-white.png" class="logo--footer" alt="Hick Thomas Logo"></a>
-        </div>
-        <div class="footer__container">
-            <h4 class="title--footer">Houston</h4>
-            <address class="text--address">700 Louisiana St.
-                <br>Suite 2300
-                <br>Houston, TX 77002</address>
-            <p><a href="tel:512-827-7990" class="nav__tel">713-547-9100</a></p>
-            <div class="nav__map">
-                <i class="fa-solid fa-location-dot"></i>
-                <a href="">Map & Directions</a>
+        <div class="section__wrapper">
+            <div class="footer__header">
+                <a href=""><img src="img/hicks-thomas-logo-new-white.png" class="logo--footer" alt="Hick Thomas Logo"></a>
             </div>
-        </div>
-        <div class="footer__container">
-            <h4 class="title--footer">Austin</h4>
-            <address class="text--address">111 Congress Ave.
-                <br>Suite 2300
-                <br>Austin, TX 78701</address>
-            <p><a href="tel:512-827-7990" class="nav__tel">512-827-7990</a></p>
-            <div class="nav__map">
-                <i class="fa-solid fa-location-dot"></i>
-                <a href="">Map & Directions</a>
+            <div class="footer__wrapper">
+                <div class="footer__container">
+                    <h4 class="title--footer">Houston</h4>
+                    <address class="text--address">700 Louisiana St.
+                        <br>Suite 2300
+                        <br>Houston, TX 77002</address>
+                    <p><a href="tel:512-827-7990" class="nav__tel">713-547-9100</a></p>
+                    <div class="nav__map">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="">Map & Directions</a>
+                    </div>
+                </div>
+                <div class="footer__container">
+                    <h4 class="title--footer">Austin</h4>
+                    <address class="text--address">111 Congress Ave.
+                        <br>Suite 2300
+                        <br>Austin, TX 78701</address>
+                    <p><a href="tel:512-827-7990" class="nav__tel">512-827-7990</a></p>
+                    <div class="nav__map">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="">Map & Directions</a>
+                    </div>
+                </div>
+                <div class="footer__container">
+                    <h4 class="title--footer">Amarillo</h4>
+                    <address class="text--address">619 S. Tyler St.
+                        <br>Suite 2300
+                        <br>Amarillo, TX 79101</address>
+                    <p><a href="tel:806-310-9990" class="nav__tel">806-310-9990</a></p>
+                    <div class="nav__map">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="">Map & Directions</a>
+                    </div>
+                </div>
+                <div class="footer__container">
+                    <h4 class="title--footer">Beaumont</h4>
+                    <address class="text--address">2615 Calder Ave.
+                        <br>Suite 2300
+                        <br>Beaumont, TX 77702</address>
+                    <p><a href="tel:409-241-7252" class="nav__tel">409-241-7252</a></p>
+                    <div class="nav__map">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="">Map & Directions</a>
+                    </div>
+                </div>
+                <div class="footer__container">
+                    <h4 class="title--footer">Sacramento</h4>
+                    <address class="text--address">701 University Ave.
+                        <br>Suite 2300
+                        <br>Sacramento, CA 95825</address>
+                    <p><a href="tel:916-447-4900" class="nav__tel">916-447-4900</a></p>
+                    <div class="nav__map">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="">Map & Directions</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="footer__container">
-            <h4 class="title--footer">Amarillo</h4>
-            <address class="text--address">619 S. Tyler St.
-                <br>Suite 2300
-                <br>Amarillo, TX 79101</address>
-            <p><a href="tel:806-310-9990" class="nav__tel">806-310-9990</a></p>
-            <div class="nav__map">
-                <i class="fa-solid fa-location-dot"></i>
-                <a href="">Map & Directions</a>
+            <div class="footer__socials">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google"></i></a>
             </div>
-        </div>
-        <div class="footer__container">
-            <h4 class="title--footer">Beaumont</h4>
-            <address class="text--address">2615 Calder Ave.
-                <br>Suite 2300
-                <br>Beaumont, TX 77702</address>
-            <p><a href="tel:409-241-7252" class="nav__tel">409-241-7252</a></p>
-            <div class="nav__map">
-                <i class="fa-solid fa-location-dot"></i>
-                <a href="">Map & Directions</a>
+            <div class="footer__disclaimer">
+                <small>UNLESS OTHERWISE NOTED, OUR LAWYERS ARE NOT CERTIFIED BY THE TEXAS BOARD OF LEGAL SPECIALIZATION. The publications contained in this site do not constitute legal advice. Legal advice can only be with knowledge of the clients specific facts. By putting these publications on our website, we do not intend to create a lawyer-client relationship with the user. Materials may not reflect the most current legal developments, verdicts or settlements. This information should in no way be taken as an indication for future results</small>
             </div>
-        </div>
-        <div class="footer__container">
-            <h4 class="title--footer">Sacramento</h4>
-            <address class="text--address">701 University Ave.
-                <br>Suite 2300
-                <br>Sacramento, CA 95825</address>
-            <p><a href="tel:916-447-4900" class="nav__tel">916-447-4900</a></p>
-            <div class="nav__map">
-                <i class="fa-solid fa-location-dot"></i>
-                <a href="">Map & Directions</a>
-            </div>
-        </div>
-        <div class="footer__socials">
-            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-google"></i></a>
-        </div>
-        <div class="footer__disclaimer">
-            <small>UNLESS OTHERWISE NOTED, OUR LAWYERS ARE NOT CERTIFIED BY THE TEXAS BOARD OF LEGAL SPECIALIZATION. The publications contained in this site do not constitute legal advice. Legal advice can only be with knowledge of the clients specific facts. By putting these publications on our website, we do not intend to create a lawyer-client relationship with the user. Materials may not reflect the most current legal developments, verdicts or settlements. This information should in no way be taken as an indication for future results</small>
-        </div>
-        <div class="footer__copyrights">
-            <div class="copyright">
-                <small>© 2025 <a href="" class="hidden">Hicks Thomas LLP</a> | <a href="">Privacy Policy</a> | <a href="">Site Map</a>
-                </small>
-            </div>
-            <div class="copyright">
-                <small><a href="">Law Firm Website Design</a> by Dan Gilroy Design</small>
+            <div class="footer__copyrights">
+                <div class="copyright">
+                    <small>© 2025 <a href="" class="copyright--ht">Hicks Thomas LLP</a> | <a href="">Privacy Policy</a> | <a href="">Site Map</a>
+                    </small>
+                </div>
+                <div class="copyright">
+                    <small><a href="">Law Firm Website Design</a> by Dan Gilroy Design</small>
+                </div>
             </div>
         </div>
     </footer>

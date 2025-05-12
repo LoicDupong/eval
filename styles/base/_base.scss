@@ -8,6 +8,11 @@
     z-index: 5;
     transition: .1s all ease-in-out;
     & a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
         border-radius: 50%;
         border: 2px solid #006595;
         background-color: #006595;
@@ -39,6 +44,16 @@
     padding: 50px 10px;
 }
 
-.hidden{
-    display: none;
+@media screen and (min-width:1250px) {
+
+    .section{
+        &__wrapper{
+            max-width: 1400px;
+            margin: auto;
+        }
+    }
+    
+    .call-fixed{
+        display: none;
+    }
 }

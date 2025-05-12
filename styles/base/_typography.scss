@@ -206,3 +206,52 @@ small{
     }
     
 }
+
+@media screen and (min-width:1250px) {
+    .nav{
+        & a{
+            font-size: 20px;
+        }
+    }
+    
+    .title{
+    
+        &--hero{
+            font-size: 80px;
+        }
+    
+        &--section{
+            font-size: 60px;
+        }
+    
+        &--attorneys{
+            font-size: 36px;
+        }
+    
+        &--blog{
+            font-size: 26px;
+        }
+    }
+    
+    .text{
+        &--hero{
+            font-size: 22px;
+        }
+    }
+
+    .section{
+        text-align: left;
+    }
+
+    blockquote{
+        text-align: center;
+        margin-left: 4%;
+    }
+    blockquote p{
+        font-size: 30px;
+    }
+    
+    cite{
+        font-size: 18px;
+    }
+}

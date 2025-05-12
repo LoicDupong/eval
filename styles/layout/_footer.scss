@@ -42,6 +42,40 @@
     margin: auto;
 }
 
+.copyright--ht{
+    display: none;
+}
 
+@media screen and (min-width:1250px) {
+    .footer{
+        padding: 50px 0 25px 0;
+        display: flex;
+        flex-direction: column;
 
+        &__header{
+            margin-bottom: 2rem;
+        }
 
+        &__wrapper{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        &__disclaimer{
+            text-align: left;
+        }
+
+        &__copyrights{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .copyright--ht{
+        display: inline;
+    }
+
+    .logo--footer{
+        height: 90px;
+    }
+}

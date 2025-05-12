@@ -39,7 +39,6 @@
 
 .hero{
     position: relative;
-    z-index: 4;
     display: flex;
     align-items: center;
     height: 100%;
@@ -56,16 +55,53 @@
         & video{
             height: 100%;
             width: 100%;
+            z-index: 3;
         }
     }
 
-    // &__body{
-
-    // }
+    &__body{
+        z-index: 6;
+    }
     &__btn{
         display: none;
     }
 }
 
+@media screen and (min-width:1250px) {
 
+    .navbar{
+        padding: 10px 50px;
+    }
 
+    .logo-container img{
+        height: 90px;
+    }
+    .burger-menu{
+        display: none;
+    }
+
+    .nav{
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+
+        .search{
+            background-color: #0744af;
+            padding: 5px 8px;
+            border-radius: 5px;
+        }
+    }
+    .hero{
+        max-width: 1400px;
+        margin: auto;
+
+        &__btn{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+    .text--hero{
+        width: 50%;
+    }
+}

@@ -34,7 +34,7 @@
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.55)), url(../img/shutterstock_2413843309.jpg);
 }
 
-.attorney__item {
+.attorneys__item {
     margin-bottom: 2.5rem;
     position: relative;
 
@@ -117,3 +117,84 @@
 }
 
 
+@media screen and (min-width:1250px) {
+
+    .section{
+
+        &__intro{
+            padding: 100px 0;
+        }
+
+        &__attorneys{
+            padding: 100px 0;
+        }
+
+        &__container{
+            margin-bottom: 1rem;
+        }
+
+    }
+
+    .intro{
+        display: flex;
+
+    }
+    .attorneys{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 4rem;
+
+        &__container{
+            flex-basis: 48%;
+            text-align: left;
+        }
+
+        &__item {
+            margin-bottom: 2.5rem;
+            position: relative;
+        
+            img{
+                max-width: 360px;
+                max-height: 360px;
+                border-radius: 50%;
+                margin: 25px;
+                box-shadow: 0 0 0 25px rgba(255, 255, 255, 0.2);
+            }
+        }
+    }
+
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .card{
+
+        .text{
+            margin-bottom: 3rem;
+        }
+    }
+
+    .badges{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    .badge{
+        display: flex!important;
+        align-items: center;
+        width: 188.333px;
+        height: 150px;
+
+        img{
+            max-height: 100%;
+            height: auto;
+        }
+    }
+
+    .blogs{
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+}
