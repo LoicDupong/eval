@@ -1,72 +1,35 @@
-# 🚀 Nom du Projet
+🧪 Évaluation HTML & CSS — Reproduction du site hicks-thomas.com
+🎯 Objectif
+Ce projet est une reproduction fidèle du site hicks-thomas.com en HTML et CSS uniquement, dans le cadre d'une évaluation technique. L'objectif est de recréer les pages suivantes sans fonctionnalité JavaScript :
 
-> 🌟 Une courte phrase d'accroche pour présenter ton projet.
+📁Page d’accueil (home)
+📁Page "Attorneys"
+📁Page "Contact"
 
----
+🧱 Contraintes techniques
+📱 Mobile-First
+HTML sémantique
+CSS structuré avec SASS
+Aucune librairie externe
+Approche mobile-first et responsive
+Utilisation de CSS Grid :
+Section “A Legacy of Winning” sur la home
+Grille des employés sur la page Attorneys
+Code propre, lisible, sans duplication
 
-## 📦 Fonctionnalités
+🔍 Structure
+index.html
+attorneys.html
+contact.html
+/assets
+/scss
+/css
+/images
+/video
 
-| ✅ Fait | 🔧 En cours | 📝 À faire |
-|--------|-------------|------------|
-| Fonctionnalité 1 |  |  |
-| Fonctionnalité 2 |  |  |
-|  | Fonctionnalité 3 |  |
-|  |  | Fonctionnalité 4 |
+📝 Déploiement
+Le projet est hébergé sur GitHub Pages :
+[lien vers la page](https://loicdupong.github.io/eval/)
 
----
-
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/LoicDupong/ton-projet.git
-cd ton-projet
-npm install
-```
-
----
-
-## ▶️ Utilisation
-
-```bash
-npm start
-```
-
----
-
-## ⚙️ Configuration
-
-| Variable          | Description                 | Exemple                |
-|------------------|-----------------------------|------------------------|
-| `API_KEY`         | Clé pour l'API externe      | `123abc456`            |
-| `NODE_ENV`        | Mode d'exécution            | `development` / `prod` |
-
----
-
-## 🧰 Stack Technique
-
-- 🧠 Framework : React / Vue / etc.
-- 🔌 Backend : Node.js / Django / etc.
-- 🗃️ BDD : MongoDB / PostgreSQL
-- 🎨 UI : Tailwind / Bootstrap
-
----
-
-## 🤝 Contribuer
-
-1. 🍴 Fork le repo
-2. 💡 Crée une branche (`git checkout -b feature/xyz`)
-3. 🔨 Commit (`git commit -m 'feat: add xyz'`)
-4. 🚀 Push (`git push origin feature/xyz`)
-5. 📩 Ouvre une Pull Request
-
----
-
-## 📝 Licence
-
-Ce projet est sous licence [MIT](LICENSE).
-
----
-
-## 📬 Contact
-
-Créé avec ❤️ par [@LoicDupong](https://github.com/LoicDupong)
+🤝 Résumé
+Projet réalisé dans les conditions strictes imposées par l’évaluation : sans IA, sans aide externe, dans le respect des horaires. L’accent a été mis sur la fidélité visuelle, la structure sémantique et la qualité du code.
