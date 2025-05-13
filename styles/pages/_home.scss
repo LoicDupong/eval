@@ -1,3 +1,6 @@
+// =====================================================
+// ============ STYLES MOBILE-FIRST 🧡🧡==============
+// ===============================================
 .section {
     &__attorneys{
         padding: 60px 0;
@@ -14,7 +17,7 @@
     }
 
     &__blog{
-        padding: 100px 0;
+        padding: 100px 50px;
         background-image: linear-gradient(to bottom, rgba(7, 68, 175, 0.95), rgba(7, 68, 175, 0.75)), url(../img/shutterstock_2314958033.jpg);
         background-position: center;
         background-size: cover;
@@ -116,7 +119,9 @@
     }
 }
 
-
+// =====================================================
+// ============ STYLES DESKTOP 🧡🧡==============
+// ===============================================
 @media screen and (min-width:1250px) {
 
     .section{
@@ -201,10 +206,25 @@
     }
 }
 
-@media screen and (min-width:960px) {
+// =====================================================
+// ============ STYLES TABLET 🧡🧡==============
+// ===============================================
+@media screen and (min-width:768px) {
 
-    .section__wrapper{
-        max-width: 1000px;
+    .section{
+
+        &__intro{
+            padding: 100px 10px;
+        }
+
+        &__attorneys{
+            padding: 100px 10px;
+        }
+
+        &__container{
+            margin-bottom: 1rem;
+        }
+
     }
     .cards{
         grid-template-columns: repeat(2, 1fr);

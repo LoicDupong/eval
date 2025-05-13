@@ -1,3 +1,6 @@
+// =====================================================
+// ============ STYLES MOBILE-FIRST 🧡🧡==============
+// ===============================================
 .footer{
     background-color: #222222;
     padding: 3rem 0 4rem 0;
@@ -47,6 +50,10 @@
     display: none;
 }
 
+
+// =====================================================
+// ============ STYLES DESKTOP 🧡🧡==============
+// ===============================================
 @media screen and (min-width:1250px) {
     .footer{
         padding: 50px 0 25px 0;
@@ -79,4 +86,35 @@
     .logo--footer{
         height: 90px;
     }
+}
+
+
+// =====================================================
+// ============ STYLES TABLET 🧡🧡==============
+// ===============================================
+@media screen and (min-width:768px) {
+
+    .footer{
+        &__wrapper{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        &__container{
+            flex-basis: 50%;
+        }
+
+        &__disclaimer{
+            text-align: left;
+        }
+
+        &__copyrights{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+    }
+    
+
 }

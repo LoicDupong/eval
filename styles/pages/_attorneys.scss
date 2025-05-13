@@ -1,3 +1,6 @@
+// =====================================================
+// ============ STYLES MOBILE-FIRST 🧡🧡==============
+// ===============================================
 .attorneys-all{
     padding-top: 100px;
     background-color: #f2f5f9;
@@ -24,6 +27,9 @@
     }
 }
 
+// =====================================================
+// ============ STYLES DESKTOP 🧡🧡==============
+// ===============================================
 @media screen and (min-width:1250px) {
     .attorneys-all{
         padding-top: 195px;
@@ -69,5 +75,22 @@
 
     .fa-envelope{
         margin-left: 0.3rem;
+    }
+}
+
+
+// =====================================================
+// ============ STYLES TABLET 🧡🧡==============
+// ===============================================
+@media screen and (min-width:768px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.25rem;
+    
+    }
+
+    .grid-item__contact .mobile-only{
+        display: block;
     }
 }

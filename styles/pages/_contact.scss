@@ -1,4 +1,6 @@
-
+// =====================================================
+// ============ STYLES MOBILE-FIRST 🧡🧡==============
+// ===============================================
 .section{
     &__form{
         padding-top: 130px;
@@ -112,6 +114,9 @@ textarea{
     }
 }
 
+// =====================================================
+// ============ STYLES DESKTOP 🧡🧡==============
+// ===============================================
 @media screen and (min-width:1250px) {
     .section{
         &__form{
@@ -165,6 +170,30 @@ textarea{
         &::after{
             display: block;
         }
+    }
+
+    .fieldset__contact{
+        flex-direction: row;
+    }
+}
+
+
+// =====================================================
+// ============ STYLES TABLET 🧡🧡==============
+// ===============================================
+@media screen and (min-width:768px) {
+    .form__container{
+        &::before{
+            display: block;
+        }
+    
+        &::after{
+            display: block;
+        }
+    }
+
+    form{
+        align-items: center;
     }
 
     .fieldset__contact{

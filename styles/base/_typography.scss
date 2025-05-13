@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mukta:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+// =====================================================
+// ============ STYLES MOBILE-FIRST 🧡🧡==============
+// ===============================================
+
 *{
     font-family: "Roboto", sans-serif; 
 }
@@ -283,7 +287,9 @@ small{
     }
 }
 
-
+// =====================================================
+// ============ STYLES DESKTOP 🧡🧡==============
+// ===============================================
 @media screen and (min-width:1250px) {
     .nav{
         & a{
@@ -291,29 +297,7 @@ small{
         }
     }
     
-    .title{
-    
-        &--hero{
-            font-size: 80px;
-        }
-    
-        &--section{
-            font-size: 60px;
-        }
-    
-        &--attorneys{
-            font-size: 36px;
-        }
-    
-        &--blog{
-            font-size: 26px;
-        }
-
-        &--form{
-            text-align: center;
-            font-size: 36px;
-        }
-    }
+   
 
     .subtitle{
 
@@ -344,5 +328,39 @@ small{
     
     cite{
         font-size: 18px;
+    }
+}
+
+// =====================================================
+// ============ STYLES TABLET 🧡🧡==============
+// ===============================================
+
+@media screen and (min-width:768px) {
+    .title{
+    
+        &--hero{
+            font-size: 56px;
+        }
+
+        &--form{
+            text-align: center;
+        }
+    }
+
+    .section{
+        text-align: left;
+    }
+
+    blockquote{
+        text-align: center;
+    }
+
+    .subtitle{
+
+        &--form{
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 2rem;
+        }
     }
 }
