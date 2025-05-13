@@ -1,0 +1,73 @@
+.attorneys-all{
+    padding-top: 100px;
+    background-color: #f2f5f9;
+
+    &__filters{
+        display: none;
+    }
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+
+    &-item{
+
+        &__contact{
+            margin-top: 0.3rem;
+    
+            i{
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1250px) {
+    .attorneys-all{
+        padding-top: 195px;
+
+        &__filters{
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.25rem;
+    
+        &-item{
+    
+            &__contact{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            &__img{
+                position: relative;
+                cursor: pointer;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(7, 68, 175, 0.3);
+                    opacity: 0;
+                    transition: .3s all ease-in-out;
+                }
+    
+                &:hover::before{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .fa-envelope{
+        margin-left: 0.3rem;
+    }
+}

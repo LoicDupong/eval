@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mukta:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     font-family: "Roboto", sans-serif; 
@@ -70,6 +70,43 @@ p{
         letter-spacing: 0.01rem;
         font-weight: 600;
     }
+
+    &--name{
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0px;
+        font-size: 22px;
+        text-transform: none;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #0744af;
+        margin-bottom: 0;
+
+        &:hover{
+            color: black;
+            text-decoration: underline;
+        }
+    }
+
+    &--maps{
+       font-size: 28px; 
+    }
+}
+
+.subtitle{
+
+    &--attorney{
+        font-family: "Mukta", sans-serif;
+        letter-spacing: 0px;
+        line-height: normal;
+        font-weight: 400;
+        color: #777;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    &--form{
+        color: #555;
+    }
 }
 
 .text{
@@ -115,6 +152,33 @@ p{
         color: white;
         margin-bottom: 10px;
         padding-bottom: 10px;
+    }
+
+    &--address-map{
+        font-size: 15px;
+        font-style: normal;
+        line-height: 1.5;
+        color: #555;
+    }
+
+    &--attorney{
+        font-family: "Mukta", sans-serif;
+        text-align: left;
+        letter-spacing: 0px;
+        line-height: normal;
+        font-weight: 400;
+        color: #999;
+        font-size: 14px;
+
+        & a:hover{
+            color: #0744af;
+            text-decoration: underline;
+        }
+    }
+
+    &--form{
+        font-size: 15px;
+        font-style: italic;
     }
 }
 
@@ -207,6 +271,15 @@ small{
     
 }
 
+.maps__contact {
+    color: #0744af;
+
+    span{
+        margin-bottom: 0.3rem;
+    }
+}
+
+
 @media screen and (min-width:1250px) {
     .nav{
         & a{
@@ -230,6 +303,20 @@ small{
     
         &--blog{
             font-size: 26px;
+        }
+
+        &--form{
+            text-align: center;
+            font-size: 36px;
+        }
+    }
+
+    .subtitle{
+
+        &--form{
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 2rem;
         }
     }
     

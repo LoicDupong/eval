@@ -44,8 +44,15 @@
     padding: 50px 10px;
 }
 
+.mobile-only{
+    display: block;
+}
+
 @media screen and (min-width:1250px) {
 
+    .mobile-only{
+        display: none;
+    }
     .section{
         &__wrapper{
             max-width: 1400px;

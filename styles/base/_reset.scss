@@ -48,4 +48,5 @@ a:not([class]) {
   a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
+    transition: .3s all ease-in-out;
   }
